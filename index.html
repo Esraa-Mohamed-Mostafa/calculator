@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+
+</head>
+
+<body>
+    <div class="cont">
+        <div class="first">
+            <input type="text" id="input" placeholder="0" readonly>
+            <div class="second">
+                <button onclick="empty()">AC</button>
+                <button onclick="display('&#40')">(</button>
+                <button onclick="display('&#41')">)</button>
+                <button onclick="slice()">DEL</button>
+                <button onclick="display(7)">7</button>
+                <button onclick="display(8)">8</button>
+                <button onclick="display(9)">9</button>
+                <button onclick="display('/')">/</button>
+                <button onclick="display(4)">4</button>
+                <button onclick="display(5)">5</button>
+                <button onclick="display(6)">6</button>
+                <button onclick="display('*')">*</button>
+                <button onclick="display(1)">1</button>
+                <button onclick="display(2)">2</button>
+                <button onclick="display(3)">3</button>
+                <button onclick="display('-')">-</button>
+                <button onclick="display('.')">.</button>
+                <button onclick="display(0)">0</button>
+                <button id="btn" onclick="equal(event)">=</button>
+                <button onclick="display('+')">+</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
